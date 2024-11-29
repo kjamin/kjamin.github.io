@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    align-items: end;
+    grid-auto-flow: column;
+    justify-self: end;
+    display: grid;
+    padding-right: 0;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    padding-left: 40px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
+ul li:hover, ul li:focus {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid rgb(0, 58, 0) 2px;
+}
+
+#logo {
+    height: 85px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+header h1 {
+    font-size: 25px;
+    margin: 0;
+    color: rgb(0, 58, 0);
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+
+.heading {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.firstsec {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Align items to the top */
+    gap: 25px; /* Add spacing between the image and text */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    padding: 20px;
+}
+
+#homeimg, #studentpic, #servicesimg {
+    flex: 0 1 43%; /* Image takes up to 40% of the container */
+    max-width: 40%; /* Ensure image doesn't exceed this width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove any extra margin */
+}
+
+.txt, .maintxt, #students, #services {
+    flex: 1;
+    max-width: 55%; 
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#bold {
+    font-weight: bold;
+    color: rgb(0, 58, 0);
+}
+
+.secondary p {
+    font-size: 18px;
+}
+
+.secondary {
+    background-color: rgb(0, 58, 0);
+    color: white;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#students {
+    list-style-type: circle;
+    margin: 20px; 
+    text-align: left; 
+    display: block;
+}
+    
+#students li {
+    margin-bottom: 15px; 
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+#companies, #services {
+    list-style-type: circle;
+    display: block;
+    justify-self: center;
+}
+
+#companies li {
+    text-decoration: none;
+}
+
+#services li {
+   padding-bottom: 20px; 
+   text-decoration: none;
+}
+
